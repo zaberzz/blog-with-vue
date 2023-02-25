@@ -16,7 +16,7 @@ const routes = [
     component: Details,
   },
   { path: "/create", name: "create", component: Create },
-  { path: "/tags/:tag", name: "tag", component: Tag },
+  { path: "/tags/:tag", name: "Tag", component: Tag },
 ];
 
 const router = createRouter({
